@@ -6,11 +6,11 @@ export default function NavbarComponent() {
   return (
     <Navbar bg="light" expand="sm">
       <Navbar.Brand as={Link} to="/">
-        WDS Drive
+        OnlineDrive
       </Navbar.Brand>
       <Nav>
         <Nav.Link as={Link} to="/user">
-          Profile
+          Users
         </Nav.Link>
       </Nav>
     </Navbar>
